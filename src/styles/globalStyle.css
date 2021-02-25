@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif JP", "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a.visited {
+  color: #8e24aa;
+}
+a.hover-underline a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
