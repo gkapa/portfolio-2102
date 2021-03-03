@@ -9,13 +9,17 @@
     "generate": "nuxt-ts generate"
   },
   "dependencies": {
+    "@aws-amplify/ui-vue": "^1.0.3",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@vue/composition-api": "^1.0.0-rc.2",
+    "aws-amplify": "^3.3.21",
+    "aws-amplify-vue": "^2.1.5",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
-    "@nuxt/typescript-build": "^2.0.4"
+    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxtjs/vuetify": "^1.11.3"
   }
 }

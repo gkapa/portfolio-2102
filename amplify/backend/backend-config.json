@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "nuxt210301t2228b3a63a75": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
